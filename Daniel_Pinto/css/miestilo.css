@@ -1,0 +1,45 @@
+header {
+    background-color: #1C2541;
+    padding: 10px;
+    color: white;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+header h1{
+    text-align: center;
+
+}
+
+nav .btn-outline-light:hover {
+    background-color: green;
+    color: white;
+}
+.hero {
+    padding: 15px;
+    background-color: #3A506B;
+    border-radius: 15px;
+}
+footer {
+    background-color: #1C2541;
+    padding: 5px ;
+    color: white;
+
+}
+body {
+    background-image: url("../img/fondoss.jpg");
+}
+.btn-success {
+    padding: 3px;
+    border-radius: 10px;
+}
+.btn-outline-light:hover{
+    background-color: green;
+    color: white;
+}
+
+.hero p{
+    color: white;
+}

@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi Página</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="css/miestilo.css" rel="stylesheet">
+  </head>
+<body>
+    <header>
+        <h1>Mi Pagina Web</h1>
+        <img src="img/logo.png" alt="Logo" width="180" height="100">
+        <!-- abreviatura de comentarios , ctr + } -->
+        <nav>
+            <a href="#presentacion" class="btn btn-outline-light btn-lg">Presentación</a>
+            <a href="#sobre-Mi" class="btn btn-outline-light btn-lg">Sobre-Mi</a>
+            <a href="#habilidades" class="btn btn-outline-light btn-lg">Habilidades</a>
+            <a href="#proyectos" class="btn btn-outline-light btn-lg">Proyectos</a>
+            <a href="#contactos" class="btn btn-outline-light btn-lg">Contactos</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="presentacion" class="hero mt-5 ">
+            <p class="etiqueta">Mi nombre es Daniel Pinto y estudio Ingeniería en Informática con mención 
+                en Ingeniería de Datos.<br>Me considero una persona trabajadora, empática y respetuosa, 
+                con interés en seguir aprendiendo y desarrollándome profesionalmente en el área tecnológica.
+            </p>
+            <img src="img/IMG_3117.jpeg" alt="Mi imagen de presentación" class="img-fluid w-25">
+            <a href="#proyectos" class="btn btn-outline-light btn-lg w-100 mt-3"> Ver mis proyectos</a>
+        </section>
+        <hr>
+        <section id="sobre-Mi" class="hero">
+            <h4>Sobre mi</h4>
+            <p class="etiqueta">Actualmente estudio Ingeniería en Informática con mención en Ingeniería 
+                    de Datos. Además, soy titulado como Técnico en Mecánica de Maquinaria Pesada en INACAP.
+                    Me interesa aprender sobre bases de datos, desarrollo de software .
+                    Mi objetivo profesional es seguir desarrollando mis conocimientos y trabajar en proyectos 
+                    tecnológicos donde pueda aplicar soluciones basadas en datos.
+            </p>
+        </section>
+        <hr>
+        <section id="habilidades" class="hero">
+            <h4>Habilidades</h4>
+            <p class="etiqueta">SQL y bases de datos <br>Java Spring Boot <br>Kotlin <br>HTML y CSS </p>
+        </section>
+        <hr>
+        <section id="proyectos" class="hero">
+            <h4 class="titulo-seccion">Proyectos</h4>
+            <div class="row">
+                <article class="col-12 col-md-4 text-center">
+                    <h5>Sistema Minimarket</h5>
+                    <p>
+                        <strong>Descripción:</strong>
+                        Sistema desarrollado para gestionar productos, proveedores, clientes,
+                        inventario, ventas y pagos. Fue trabajado con Java, Spring Boot y MySQL,
+                        utilizando una arquitectura basada en microservicios.
+                    </p>
+                    <img src="img/ms-minimarket.png" alt="Proyecto Minimarket con microservicios" class="img-fluid">
+                </article>
+
+                <article class="col-12 col-md-4 text-center">
+                    <h5>Sistema de Gestión de Riesgo Cardiovascular</h5>
+                    <p>
+                        <strong>Descripción:</strong>
+                        Sistema diseñado para apoyar la detección temprana y el seguimiento del
+                        riesgo cardiovascular de pacientes. Permite registrar información clínica,
+                        calcular el nivel de riesgo, generar alertas y visualizar datos relacionados
+                        con la salud del paciente.
+                    </p>
+                    <img src="img/cardio.png" alt="Sistema de gestión de riesgo cardiovascular" class="img-fluid">
+                </article>
+
+                <article class="col-12 col-md-4 text-center">
+                    <h5>Página Web</h5>
+                    <p>
+                        <strong>Descripción:</strong>
+                        Página web desarrollada con HTML5, Bootstrap y CSS personalizado para
+                        presentar mi perfil profesional, habilidades, proyectos y datos de contacto.
+                        El sitio fue diseñado para adaptarse correctamente a diferentes tamaños
+                        de pantalla, como celular y computador.
+                    </p>
+                    <img src="img/pagina web.png" alt="Portafolio profesional desarrollado con HTML y Bootstrap" class="img-fluid">
+                </article>
+            </div>
+            <a href="#contactos" class="btn btn-outline-light btn-lg w-100 mt-3" > Contáctame </a>
+        </section>
+        <hr>
+        <section id="contactos" class="hero">
+            <h4>Contactos</h4>
+            <p><strong>Correo personal:</strong> mateo15q@hotmail.com</p>
+            <p><strong>Correo institucional:</strong> da.pintos@duocuc.cl</p>
+            <p><strong>Ciudad:</strong> Papudo, Región de Valparaíso</p>
+            <p><strong>Disponibilidad laboral:</strong> Viña del Mar y Santiago</p>
+            <p><strong>Teléfono:</strong> +56 965776025</p>
+            <a href="https://github.com/tuusuario" target="_blank" class="btn btn-outline-light btn-lg mb-3"> Mi GitHub </a>
+        </section>
+        <hr>
+
+    </main>
+
+    <div class="toast show ms-auto me-1" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+
+            <strong class="me-auto">Daniel Pinto</strong>
+
+            <small class="text-body-secondary">
+            Pagina Web
+            </small>
+        </div>
+
+        <div class="toast-body">
+            ¡Gracias por visitar mi Pagina Web!
+        </div>
+    </div>
+    
+    <footer>
+        <p>Pagina web de Daniel Pinto</p>
+        <p>Ingeniería en Informática - Ingeniería de Datos</p>
+    </footer>
+
+</body>
+</html>
